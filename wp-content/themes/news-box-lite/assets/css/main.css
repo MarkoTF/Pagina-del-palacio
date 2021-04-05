@@ -1,0 +1,83 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    letter-spacing: inherit;
+}
+.site-title a {
+    font-size: 30px;
+}
+.card.grid img{
+	width:100%;
+}
+.news-grid .content-area{
+	background: inherit;
+	padding: 0;
+}
+a.btn.btn-link.rdbtn {
+    border-bottom: 1px solid #ccc;
+    padding-right: 0;
+    padding-left: 0;
+    transition: 0.5s;
+}
+a.btn.btn-link.rdbtn:hover {
+	text-decoration: none;
+    opacity: 0.6;
+}
+.text-muted.card-pmeta a,.text-muted.card-pmeta i {
+    font-size: 80%;
+}
+
+.text-muted.card-pmeta {
+    margin: -5px 0 0 0;
+}
+nav.navigation.pagination {
+    text-align: center;
+    display: block;
+}
+.nav-links a,.nav-links span {
+    background: #fff;
+    border: 1px solid #ededed;
+    padding: 5px 8px;
+}
+.card-columns .hentry {
+    margin-bottom: 0;
+}
+nav.navigation.pagination {
+    text-align: center;
+    display: block;
+}
+@media (max-width: 991px){
+
+    ul#primary-menu .dropdown-menu {
+        display: none;
+    }
+    ul#primary-menu .dropdown-menu.show {
+        display: block;
+    }
+
+@media (max-width: 768px){
+
+    p.site-description{
+        text-align: center;
+    }
+    .search-icon {
+        text-align: left;
+        margin-top: -10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background: transparent;
+        width: 40px;
+        font-size: 15px;
+    }
+    ul#primary-menu {
+        text-align: center;
+    }
+
+}
