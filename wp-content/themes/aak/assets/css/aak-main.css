@@ -358,7 +358,7 @@ form.post-password-form p {
     .aak-main-nav {
         justify-content: flex-end;
         margin: auto;
-        text-align: right;
+        text-align: center;
     }
     /*.aadhs-two .aak-main-nav {
         float: right;
