@@ -62,8 +62,8 @@ a.post-thumbnail {
     align-items: baseline;
 }
 .brand-menubar{
-    -webkit-box-shadow: 0 0 70px rgba(0,0,0,.11);
-    box-shadow: 0 0 70px rgba(0,0,0,.11);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
+	box-shadow: 0 0 15px rgba(0,0,0,.15);
     position: relative;
 }
 .aak-header .site-title {
@@ -197,8 +197,8 @@ h2.widget-title {
     color: #ec2b8c;
 }
 .card.aakcard {
-    -webkit-box-shadow: 0 0 70px rgba(0,0,0,.11);
-    box-shadow: 0 0 70px rgba(0,0,0,.11);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
     border: none;
     background: #fff;
 }
@@ -247,22 +247,25 @@ h2.widget-title {
 .aak-btext,
 .widget-area .widget,
 .site-footer,
-.archive-header,
 .search-header,
-.aak-page,
 .site-main .comment-navigation, 
 .site-main .posts-navigation, 
 .site-main .post-navigation,
 .site-footer,
 .aak-blog-list,
-.aak-single-list,
-.comments-area,nav.navigation.pagination .nav-links a,
+nav.navigation.pagination .nav-links a,
 nav.navigation.pagination .nav-links span {
-    -webkit-box-shadow: 0 0 70px rgba(0,0,0,.11);
-            box-shadow: 0 0 70px rgba(0,0,0,.11);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
+            box-shadow: 0 0 15px rgba(0,0,0,.15);
     padding: 20px;
     background: #fff;
 }
+
+/*Para evitar las sombras*/
+.aak-page {
+  box-shadow: none;
+}
+
 .aak-btext {
     margin-left: -120px;
 }
