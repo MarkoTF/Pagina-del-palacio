@@ -261,9 +261,15 @@ nav.navigation.pagination .nav-links span {
     background: #fff;
 }
 
+/*-----------------------------------------------mis estilos-------------------------------------*/
 /*Para evitar las sombras*/
 .aak-page {
   box-shadow: none;
+}
+
+/*Quitar el footer (marca de agua)*/
+.site-footer {
+  display: none;
 }
 
 .aak-btext {
