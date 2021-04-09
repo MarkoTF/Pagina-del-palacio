@@ -267,10 +267,24 @@ nav.navigation.pagination .nav-links span {
   box-shadow: none;
 }
 
+/*Por se es necesario crear el efento de identación*/
+.subelemento-1 {
+  padding-left: 30px;
+}
+
+.subelemento-2 {
+  padding-left: 60px;
+}
+
+.subelemento-3 {
+  padding-left: 90px;
+}
+
 /*Quitar el footer (marca de agua)*/
 .site-footer {
   display: none;
 }
+/*-----------------------------------------------fin de mis estilos-------------------------------------*/
 
 .aak-btext {
     margin-left: -120px;
