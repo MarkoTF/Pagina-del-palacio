@@ -62,8 +62,8 @@ a.post-thumbnail {
     align-items: baseline;
 }
 .brand-menubar{
-    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
-	box-shadow: 0 0 15px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 0 70px rgba(0,0,0,.11);
+    box-shadow: 0 0 70px rgba(0,0,0,.11);
     position: relative;
 }
 .aak-header .site-title {
@@ -197,8 +197,8 @@ h2.widget-title {
     color: #ec2b8c;
 }
 .card.aakcard {
-    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
-    box-shadow: 0 0 15px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 0 70px rgba(0,0,0,.11);
+    box-shadow: 0 0 70px rgba(0,0,0,.11);
     border: none;
     background: #fff;
 }
@@ -247,45 +247,22 @@ h2.widget-title {
 .aak-btext,
 .widget-area .widget,
 .site-footer,
+.archive-header,
 .search-header,
+.aak-page,
 .site-main .comment-navigation, 
 .site-main .posts-navigation, 
 .site-main .post-navigation,
 .site-footer,
 .aak-blog-list,
-nav.navigation.pagination .nav-links a,
+.aak-single-list,
+.comments-area,nav.navigation.pagination .nav-links a,
 nav.navigation.pagination .nav-links span {
-    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
-            box-shadow: 0 0 15px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 0 70px rgba(0,0,0,.11);
+            box-shadow: 0 0 70px rgba(0,0,0,.11);
     padding: 20px;
     background: #fff;
 }
-
-/*-----------------------------------------------mis estilos-------------------------------------*/
-/*Para evitar las sombras*/
-.aak-page {
-  box-shadow: none;
-}
-
-/*Por se es necesario crear el efento de identación*/
-.subelemento-1 {
-  padding-left: 30px;
-}
-
-.subelemento-2 {
-  padding-left: 60px;
-}
-
-.subelemento-3 {
-  padding-left: 90px;
-}
-
-/*Quitar el footer (marca de agua)*/
-.site-footer {
-  display: none;
-}
-/*-----------------------------------------------fin de mis estilos-------------------------------------*/
-
 .aak-btext {
     margin-left: -120px;
 }
@@ -378,7 +355,7 @@ form.post-password-form p {
     .aak-main-nav {
         justify-content: flex-end;
         margin: auto;
-        text-align: center;
+        text-align: right;
     }
     /*.aadhs-two .aak-main-nav {
         float: right;

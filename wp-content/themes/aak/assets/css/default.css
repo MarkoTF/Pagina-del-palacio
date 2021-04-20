@@ -712,6 +712,9 @@ textarea {
 .headerlogo-text.htl-left {
     align-items: flex-start;
 }
+.headerlogo-text.htl-left h1.site-title {
+    text-align: left;
+}
 .headerlogo-text.htl-center {
     align-items: center;
 }

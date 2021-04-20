@@ -124,6 +124,7 @@ add_action('aak_header_style_one','aak_headerstyle_one_item');
 				<?php the_header_image_tag(); ?>
 			</div>
 		<?php else: ?>
+			<div class="container">
 			<div class="site-branding text-center <?php if($aak_dheader_text && has_custom_logo()): ?>aak-two-logo<?php endif; ?>">
 		<?php endif; ?>
 		<div class="aakbar-item site-branding mr-lg-auto flex-grow-1">
@@ -144,6 +145,9 @@ add_action('aak_header_style_one','aak_headerstyle_one_item');
 			</div>
 			</div>
 		</div><!-- .site-branding -->
+	<?php if(!has_header_image()): ?>
+		</div><!-- .container -->
+	<?php endif; ?>
 		</div>
 		<div class="brand-menubar">
 			<div class="container">

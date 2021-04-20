@@ -273,7 +273,7 @@ add_action( 'after_setup_theme', 'aak_about_setup' );
 //Admin notice 
 
 function aak_admin_notice__error() {
-    if(get_option('aak_notice3')){
+    if(get_option('aak_notice4')){
         return;
     }
 	$class = 'bb-notice notice notice-warning is-dismissible';
@@ -288,8 +288,8 @@ add_action( 'admin_notices', 'aak_admin_notice__error' );
 
 function aak_admin_notice_option(){
     if(isset($_GET['hnotice']) && $_GET['hnotice'] == 1 ){
-        delete_option( 'aak_notice2');
-        update_option( 'aak_notice3', 1);
+        delete_option( 'aak_notice3');
+        update_option( 'aak_notice4', 1);
     }
 }
 add_action('init','aak_admin_notice_option');

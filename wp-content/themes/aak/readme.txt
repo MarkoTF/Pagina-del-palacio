@@ -4,8 +4,8 @@ Contributors: nalam
 Tags: blog, news, education, custom-logo, one-column, two-columns, grid-layout, right-sidebar, custom-background, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, threaded-comments, translation-ready, block-styles
 Requires PHP: 5.6
 Requires at least: 4.7
-Tested up to: 5.6
-Stable tag: 1.0.7
+Tested up to: 5.7
+Stable tag: 1.0.8
 License: GNU General Public License v2 or later
 License URI: http://opensource.org/licenses/gpl-2.0.php
 
@@ -76,6 +76,8 @@ Source:https://pxhere.com/en/photo/1159485
 == Changelog ==
 
 = 1.0.8 - Jan 13 2021 =
+* Added header container
+= 1.0.7 - Jan 13 2021 =
 * Changed screenshot
 * Header text font size change
 * tested with WordPress 5.6
