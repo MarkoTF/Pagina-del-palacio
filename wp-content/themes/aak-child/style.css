@@ -49,13 +49,41 @@
 	box-shadow: 0 0 15px rgba(0,0,0,.15);
 }
 
-/*Ajustes de sombras para los cards*/
+/*Ajustes de sombras para los cards
 .card.aakcard {
     -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
     box-shadow: 0 0 15px rgba(0,0,0,.15);
     border: none;
     background: #fff;
 }
+*/
+
+/*Trancicion de los card*/
+.card.aakcard {
+  transition-property: -webkit-box-shadow, box-shadow;
+  transition-duration: 0.5s;
+
+  border: 0;
+  border-radius: 0;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-color: #d5d5d5;
+  border-style: solid;
+
+  -webkit-box-shadow: 0 0 0px rgba(0,0,0,.15);
+  box-shadow: 0 0 0px rgba(0,0,0,.15);
+  background: #fff;
+}
+
+.card.aakcard:hover {
+  transition-property: -webkit-box-shadow, box-shadow;
+  transition-duration: 0.5s;
+
+  -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
+  box-shadow: 0 0 15px rgba(0,0,0,.15);
+  background: #fff;
+}
+
 
 /*Ajustes de sombra en general*/
 .aak-btext,
@@ -91,7 +119,7 @@ nav.navigation.pagination .nav-links span {
 
 
 /*============================Colores==========*/
-a:hover, a:visited, .entry-meta a, h1.site-title a {
+a:hover, a:visited, .entry-meta a, h1.site-title a, .card-title a {
   color: #E0382B;
   text-decoration: none;
 }
@@ -102,4 +130,12 @@ a:hover, a:visited, .entry-meta a, h1.site-title a {
 
 h3.widget-title {
   background: #E67870;
+}
+
+.posted-on, .entry-date.published {
+  color: #3c3c3c;
+}
+
+.byline, .author.vcard a {
+  color: black;
 }
