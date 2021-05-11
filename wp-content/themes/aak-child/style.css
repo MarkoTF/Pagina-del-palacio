@@ -38,10 +38,10 @@
   padding-left: 90px;
 }
 
-/*Quitar el footer (marca de agua)*/
+/*Quitar el footer (marca de agua/
 .site-footer {
   display: none;
-}
+}*/
 
 /*Ajuste de sombras para el menu*/
 .brand-menubar{
@@ -139,3 +139,41 @@ h3.widget-title {
 .byline, .author.vcard a {
   color: black;
 }
+
+aside section {
+  border: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
+  background: #f9f9f9 !important;
+
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+
+/*======================Tamaños==================*/
+.regidorCard {
+  margin-bottom: 90px;
+}
+
+.regidorCard figure {
+  margin-bottom: 40px;
+}
+
+.regidorCard p {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 40px;
+
+  color: #3f3f3f;
+}
+
+.regidor-contenedor {
+  /*margin-bottom: 90px;*/
+}
+
+#menu-item-451 a:hover {
+  transition-property: color;
+  color: #E0382B;
+}
+
