@@ -1,17 +1,6 @@
-<?php
-/**
- * Template part for displaying header top bar
- *
- * @link https://wpthemespace.com/product/beshop
- *
- * @package BeShop
- */
-
-?>
-
 <?php 
- function aak_header_top_display_item(){
- 	$aak_topbar_mtext = get_theme_mod( 'aak_topbar_mtext', esc_html__('elcome to Our Website','aak') );
+ function aak_header_top_display_item_custom(){
+ 	$aak_topbar_mtext = get_theme_mod( 'aak_topbar_mtext', esc_html__('Bienvenid@ a nuestra página de información','aak') );
 	$aak_topbar_menushow = get_theme_mod( 'aak_topbar_menushow',1 );
 	$aak_topbar_search = get_theme_mod( 'aak_topbar_search',1 );
  ?>
@@ -54,7 +43,6 @@
 	</div>
 <?php 	
  }
-add_action('aak_header_top_display','aak_header_top_display_item');
+add_action('aak_header_top_display_custom','aak_header_top_display_item_custom');
 
 ?>
-
