@@ -119,12 +119,17 @@ nav.navigation.pagination .nav-links span {
 
 
 /*============================Colores==========*/
-a:hover, a:visited, .entry-meta a, h1.site-title a, .card-title a {
+a:hover,
+a:visited,
+.entry-meta a,
+h1.site-title a,
+.card-title a {
   color: #E0382B;
   text-decoration: none;
 }
 
-.aaktop-menu .menu-item a{
+.aaktop-menu
+.menu-item a{
   color: white;
 }
 
@@ -132,11 +137,13 @@ h3.widget-title {
   background: #E67870;
 }
 
-.posted-on, .entry-date.published {
+.posted-on,
+.entry-date.published {
   color: #3c3c3c;
 }
 
-.byline, .author.vcard a {
+.byline,
+.author.vcard a {
   color: black;
 }
 
