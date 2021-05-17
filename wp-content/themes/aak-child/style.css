@@ -184,3 +184,45 @@ aside section {
   color: #E0382B;
 }
 
+/*Tamanio del logo*/
+img.custom-logo {
+  max-height: 450px;
+  width: auto;
+}
+
+/*Tamanio del titulo*/
+.style2 h1.site-title a {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1540px) {
+  /*Tamanio del logo*/
+  img.custom-logo {
+    max-height: 340px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /*Tamanio del logo*/
+  img.custom-logo {
+    max-height: 250px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 480px) {
+  /*Tamanio del logo*/
+  img.custom-logo {
+    max-height: 250px;
+    width: auto;
+  }
+
+  /*Tamanio del titulo*/
+  .style2 h1.site-title a {
+    font-size: 30px;
+  }
+}

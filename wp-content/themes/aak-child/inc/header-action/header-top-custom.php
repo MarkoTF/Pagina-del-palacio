@@ -1,6 +1,6 @@
 <?php 
  function aak_header_top_display_item_custom(){
- 	$aak_topbar_mtext = get_theme_mod( 'aak_topbar_mtext', esc_html__('Bienvenid@ a nuestra página de información','aak') );
+ 	$aak_topbar_mtext = get_theme_mod( 'aak_topbar_mtext', esc_html__('Bienvenid@','aak') );
 	$aak_topbar_menushow = get_theme_mod( 'aak_topbar_menushow',1 );
 	$aak_topbar_search = get_theme_mod( 'aak_topbar_search',1 );
  ?>
