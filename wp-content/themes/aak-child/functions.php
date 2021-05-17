@@ -10,5 +10,6 @@
   }
   add_action( 'wp_enqueue_scripts', 'mychildtheme_enqueue_styles' );
 
-  require get_stylesheet_directory(). '/header-top-custom.php';
+  require get_stylesheet_directory(). '/inc/header-action/header-top-custom.php';
+  require get_stylesheet_directory() . '/inc/template-tags.php';
 ?>
