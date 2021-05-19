@@ -209,6 +209,19 @@ img.custom-logo {
     max-height: 250px;
     width: auto;
   }
+
+  /*Tamanio del titulo*/
+  .style2 h1.site-title a {
+    font-size: 30px;
+  }
+
+  .aak-main-nav {
+      text-align: center;
+  }
+
+  #primary-menu {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -219,10 +232,5 @@ img.custom-logo {
   img.custom-logo {
     max-height: 250px;
     width: auto;
-  }
-
-  /*Tamanio del titulo*/
-  .style2 h1.site-title a {
-    font-size: 30px;
   }
 }
