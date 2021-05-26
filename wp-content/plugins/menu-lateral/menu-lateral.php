@@ -7,8 +7,13 @@
  * Version: 1.0
  * */
 
+
 if (is_admin()) {
   require_once __DIR__ . '/admin/admin.php';
 } else {
   require_once __DIR__ . '/public/frontend.php';
 }
+
+
+?>
+

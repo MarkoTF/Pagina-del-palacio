@@ -1,3 +1,6 @@
 <?php
-wp_enqueue_script('mlm_frontend_js', WP_PLUGIN_DIR . '/menu');
-wp_enqueue_style()
+function panla_titulo_widgets($title) {
+  return $title . ' Filtrado';
+}
+
+add_filter('widget_title', 'panla_titulo_widgets');
