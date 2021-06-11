@@ -12,12 +12,12 @@
 }
 
 .directorio-personal figure {
-	height: auto;
-	max-width: 100px;
+  height: auto;
+  max-width: 100px;
 }
 
 .directorio-personal .wp-block-media-text__content {
-	padding-left: 10px;
+  padding-left: 10px;
 }
 
 /*Para evitar las sombras*/
