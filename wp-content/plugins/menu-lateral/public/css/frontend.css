@@ -1,5 +1,23 @@
+.seccion-menu-encabezado {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 15px 10px 15px 10px;
+  padding-buttom: 15px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-image: url('../images/test-menu-lateral.png');
+  background-size: contain;
+}
+
+.seccion-menu-lista {
+  padding: 5px 10px 10px 10px;
+}
+
+.seccion-menu-lista p {
+  margin: 0;
+}
 
 .menu-lateral {
-  color: red;
-  background-color: white;
+  color: white;
 }
