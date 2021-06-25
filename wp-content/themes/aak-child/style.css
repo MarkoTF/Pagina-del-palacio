@@ -38,11 +38,6 @@
   padding-left: 90px;
 }
 
-/*Quitar el footer (marca de agua/
-.site-footer {
-  display: none;
-}*/
-
 /*Ajuste de sombras para el menu*/
 .brand-menubar{
     -webkit-box-shadow: 0 0 15px rgba(0,0,0,.15);
@@ -195,25 +190,33 @@ img.custom-logo {
   font-size: 40px;
 }
 
+
+/*==============Pagina de turismo============*/
+.semisombra {
+  top: 0 !important;
+  background-color: rgba(0,0,0,0.5);
+}
+/*==============Pagina de turismo fin============*/
+
+/*Para el header*/
+.site-branding.has-himg.text-center.aak-two-logo {
+  width: 100vw;
+  height: 90vh;
+  background-size: cover;
+  background-image: url("http://localhost/palacio/wp-content/uploads/2021/06/Portada-web-del-palacio.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.aak-header-img {
+  display: none;
+}
+
 @media screen and (max-width: 1540px) {
   /*Tamanio del logo*/
-  img.custom-logo {
-    max-height: 340px;
-    width: auto;
-  }
 }
 
 @media screen and (max-width: 992px) {
   /*Tamanio del logo*/
-  img.custom-logo {
-    max-height: 250px;
-    width: auto;
-  }
-
-  /*Tamanio del titulo*/
-  .style2 h1.site-title a {
-    font-size: 30px;
-  }
 
   .aak-main-nav {
       text-align: center;
@@ -224,13 +227,30 @@ img.custom-logo {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .site-branding.has-himg.text-center.aak-two-logo {
+    width: 100vw;
+    height: 91vh;
+    background-size: cover;
+    background-image: url("http://localhost/palacio/wp-content/uploads/2021/06/Portada-web-del-palacio.jpg");
+  }
 }
 
 @media screen and (max-width: 480px) {
   /*Tamanio del logo*/
   img.custom-logo {
-    max-height: 250px;
+    max-height: 330px;
     width: auto;
+  }
+  /*Tamanio del titulo*/
+  .style2 h1.site-title a {
+    font-size: 30px;
+  }
+
+  .site-branding.has-himg.text-center.aak-two-logo {
+    width: 100vw;
+    height: 81vh;
+    background-size: cover;
+    background-image: url("http://localhost/palacio/wp-content/uploads/2021/06/Portada-web-del-palacio.jpg");
   }
 }
