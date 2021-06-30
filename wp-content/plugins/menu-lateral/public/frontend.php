@@ -60,14 +60,21 @@ class My_Widget extends WP_Widget {
     }
  
     public function form( $instance ) {
- 
+	
         $title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( '', 'text_domain' );
         $text = ! empty( $instance['text'] ) ? $instance['text'] : esc_html__( '', 'text_domain' );
+
         ?>
         <p>
-        <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php echo esc_html__( 'Title:', 'text_domain' ); ?></label>
-            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+        <label for="<?php echo esc_attr( $this->get_field_id( 'menu-titulo' ) ); ?>"><?php echo esc_html__( 'Nombre del encabezado', 'text_domain' ); ?></label>
+            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'menu-titulo' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'menu-titulo' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
         </p>
+
+        <p>
+        <label for="<?php echo esc_attr( $this->get_field_id( 'menu-titulo' ) ); ?>"><?php echo esc_html__( 'Nombre del encabezado', 'text_domain' ); ?></label>
+            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'menu-titulo' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'menu-titulo' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+	</p>
+
         <p>
             <label for="<?php echo esc_attr( $this->get_field_id( 'Text' ) ); ?>"><?php echo esc_html__( 'Text:', 'text_domain' ); ?></label>
             <textarea class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'text' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'text' ) ); ?>" type="text" cols="30" rows="10"><?php echo esc_attr( $text ); ?></textarea>

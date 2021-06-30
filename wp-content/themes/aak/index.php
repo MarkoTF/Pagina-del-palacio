@@ -51,6 +51,7 @@ if ( is_active_sidebar( 'sidebar-1' ) && $aak_blog_layout != 'fullwidth' ) {
 						echo '<div class="row grid">';
 					}
 
+
 					/* Start the Loop */
 					while ( have_posts() ) :
 						the_post();

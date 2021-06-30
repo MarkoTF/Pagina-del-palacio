@@ -203,8 +203,7 @@ img.custom-logo {
   width: 100vw;
   height: 90vh;
   background-size: cover;
-  background-image: url("http://localhost/palacio/wp-content/uploads/2021/06/Portada-web-del-palacio.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("http://localhost/palacio/wp-content/uploads/2021/06/Portada-web-del-palacio.jpg");
 }
 
 .aak-header-img {
@@ -231,8 +230,6 @@ img.custom-logo {
   .site-branding.has-himg.text-center.aak-two-logo {
     width: 100vw;
     height: 91vh;
-    background-size: cover;
-    background-image: url("http://localhost/palacio/wp-content/uploads/2021/06/Portada-web-del-palacio.jpg");
   }
 }
 
@@ -250,7 +247,5 @@ img.custom-logo {
   .site-branding.has-himg.text-center.aak-two-logo {
     width: 100vw;
     height: 81vh;
-    background-size: cover;
-    background-image: url("http://localhost/palacio/wp-content/uploads/2021/06/Portada-web-del-palacio.jpg");
   }
 }
